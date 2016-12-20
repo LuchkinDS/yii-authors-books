@@ -1,0 +1,10 @@
+AddDefaultCharset utf-8
+
+<ifModule mod_rewrite.c>
+    RewriteEngine on
+    # Если файл или каталог не существует, идём к /web/index.php 
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    
+    RewriteRule . index.php
+</ifModule>
