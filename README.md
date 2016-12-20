@@ -18,7 +18,7 @@ DELETE /api/v1/books/id удаление записи книги из бд
 GET /api/v1/books получение списка книг с именем автора 
 GET /api/v1/books/id получение данных книги по id 
 POST /api/v1/books добавление книги 
-PUT /api/v1/books обновление данных книги 
+PUT /api/v1/books/id обновление данных книги 
 DELETE /api/v1/books/id удаление записи книги из бд
 )
 
